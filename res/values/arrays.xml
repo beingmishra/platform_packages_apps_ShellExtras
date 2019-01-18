@@ -10,7 +10,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources>
 
     <string-array name="status_bar_battery_percentage_entries" translatable="false">
         <item>@string/status_bar_battery_percentage_default</item>
@@ -155,6 +155,7 @@
         <item>15000</item>
         <item>20000</item>
         <item>30000</item>
+    </string-array>
 
     <!-- Edge gestures -->
     <string-array name="edge_gestures_feedback_time" translatable="false">
