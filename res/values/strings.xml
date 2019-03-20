@@ -249,4 +249,7 @@
     <string name="weather_unit">Temperature unit</string>
     <string name="weather_unit_metric" translatable="false">Celsius</string>
     <string name="weather_unit_imperial" translatable="false">Fahrenheit</string>
+
+    <!-- Toggle navigation bar -->
+    <string name="navigation_bar_enabled_title">Enable navigation bar</string>
 </resources>
