@@ -199,6 +199,7 @@
 
     <!-- Hardware button navigation -->
     <string name="hardware_keys_category">Hardware keys</string>
+    <string name="hardware_keys_disable_title">Disable keys</string>
     <string name="action_value_default_action" translatable="false">default</string>
     <string name="action_value_select_app" translatable="false">app</string>
     <string name="action_value_custom_action" translatable="false">custom</string>
