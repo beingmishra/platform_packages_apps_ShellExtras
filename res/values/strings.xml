@@ -254,4 +254,8 @@
     <string name="notification_heads" >Heads Up</string>
     <string name="less_boring_heads_up_title">Less boring heads up</string>
     <string name="less_boring_heads_up_summary">Show heads up only for dialer or messaging app</string>
+
+    <!-- Toggle navigation bar -->
+    <string name="navigation_bar_enabled_title">Enable navigation bar</string>
+
 </resources>
