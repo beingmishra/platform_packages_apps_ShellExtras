@@ -29,6 +29,19 @@
             android:summary="@string/battery_style_category_summary"
             android:fragment="com.shell.extras.fragments.StatusBarBattery" />
 
+    <PreferenceCategory
+        android:key="notification_heads"
+        android:title="@string/notification_heads"
+
+        <Preference
+            <com.shell.extras.preferences.SystemSettingSwitchPreference
+            android:key="less_boring_heads_up"
+            android:title="@string/less_boring_heads_up_title"
+            android:summary="@string/less_boring_heads_up_summary"
+            android:defaultValue="false" />
+
+    </PreferenceCategory>
+
     <Preference
          android:key="network_traffic"
          android:title="@string/traffic_title"
