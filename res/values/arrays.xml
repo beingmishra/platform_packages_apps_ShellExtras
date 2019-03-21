@@ -155,6 +155,55 @@
         <item>15000</item>
         <item>20000</item>
         <item>30000</item>
+
+    <!-- Edge gestures -->
+    <string-array name="edge_gestures_feedback_time" translatable="false">
+        <item>0</item>
+        <item>50</item>
+        <item>100</item>
+        <item>150</item>
+        <item>200</item>
+        <item>250</item>
+    </string-array>
+    <string-array name="edge_gestures_feedback_time_labels">
+        <item>0ms</item>
+        <item>50ms</item>
+        <item>100ms</item>
+        <item>150ms</item>
+        <item>200ms</item>
+        <item>250ms</item>
+    </string-array>
+
+    <string-array name="edge_gestures_long_press_time_labels">
+        <item>50ms</item>
+        <item>100ms</item>
+        <item>250ms</item>
+        <item>500ms</item>
+        <item>750ms</item>
+        <item>1000ms</item>
+        <item>1500ms</item>
+        <item>2000ms</item>
+    </string-array>
+    <string-array name="edge_gestures_long_press_time" translatable="false">
+        <item>50</item>
+        <item>100</item>
+        <item>250</item>
+        <item>500</item>
+        <item>750</item>
+        <item>1000</item>
+        <item>1500</item>
+        <item>2000</item>
+    </string-array>
+
+    <string-array name="edge_gestures_back_edges_values">
+        <item>1</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="edge_gestures_back_edges_labels">
+        <item>Left</item>
+        <item>Right</item>
+        <item>Both</item>
     </string-array>
 </resources>
 

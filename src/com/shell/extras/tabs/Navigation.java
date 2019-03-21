@@ -17,6 +17,7 @@
 package com.shell.extras.tabs;
 
 import android.content.Context;
+import android.content.ContentResolver;
 import android.os.Bundle;
 import android.os.UserHandle;
 import android.app.Fragment;
@@ -29,6 +30,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.support.v14.preference.SwitchPreference;
+import android.provider.Settings;
 
 import com.android.settings.R;
 
