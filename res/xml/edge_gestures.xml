@@ -15,7 +15,7 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-    <com.shell.extras.preferences.SecureSettingListPreference
+    <com.shell.extras.preferences.SystemSettingListPreference
         android:key="edge_gestures_feedback_duration"
         android:entries="@array/edge_gestures_feedback_time_labels"
         android:entryValues="@array/edge_gestures_feedback_time"
@@ -24,7 +24,7 @@
         android:summary="%s"
         android:defaultValue="100" />
 
-    <com.shell.extras.preferences.SecureSettingListPreference
+    <com.shell.extras.preferences.SystemSettingListPreference
         android:key="edge_gestures_long_press_duration"
         android:entries="@array/edge_gestures_long_press_time_labels"
         android:entryValues="@array/edge_gestures_long_press_time"
@@ -40,7 +40,7 @@
         android:key="edge_gestures_category_back"
         android:title="@string/edge_gestures_back_category_title">
 
-        <com.shell.extras.preferences.SecureSettingListPreference
+        <com.shell.extras.preferences.SystemSettingListPreference
             android:key="edge_gestures_back_edges"
             android:title="@string/edge_gestures_back_edges_title"
             android:entries="@array/edge_gestures_back_edges_labels"
@@ -48,7 +48,7 @@
             android:summary="%s"
             android:defaultValue="5" />
 
-        <com.shell.extras.preferences.SecureSettingListPreference
+        <com.shell.extras.preferences.SystemSettingListPreference
             android:key="edge_gestures_landscape_back_edges"
             android:title="@string/edge_gestures_landscape_back_edges_title"
             android:entries="@array/edge_gestures_back_edges_labels"
@@ -65,7 +65,7 @@
             settings:interval="10"
             android:defaultValue="60" />
 
-        <com.shell.extras.preferences.SecureSettingSwitchPreference
+        <com.shell.extras.preferences.SystemSettingSwitchPreference
             android:key="edge_gestures_back_show_ui_feedback"
             android:title="@string/edge_gestures_back_show_ui_feedback_title"
             android:summary="@string/edge_gestures_back_show_ui_feedback_summary"
