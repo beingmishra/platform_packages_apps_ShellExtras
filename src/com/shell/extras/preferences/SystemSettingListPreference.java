@@ -14,11 +14,12 @@
  * limitations under the License.
  */
 
-package com.shell.extras.preference;
+package com.shell.extras.preferences;
 
 import android.content.Context;
 import android.text.TextUtils;
 import android.util.AttributeSet;
+import com.shell.extras.preferences.SystemSettingsStore;
 
 public class SystemSettingListPreference extends ListPreference {
 
