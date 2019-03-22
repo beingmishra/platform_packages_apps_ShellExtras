@@ -15,7 +15,7 @@
 -->
 
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
-
+ 
        <!-- OmniStyle -->
     <Preference
          android:key="omni_theme_select_activity"
@@ -28,12 +28,19 @@
                  android:targetClass="org.omnirom.omnistyle.BrowseThemesActivity" />
     </Preference>
 
+
+    <PreferenceCategory
+         android:key="pwr_title"
+         android:title="@string/pwr_title" >
+
     <Preference
          android:key="powermenu"
          android:title="@string/powermenu_title"
          android:icon="@drawable/ic_powermenu"
          android:summary="@string/powermenu_summary"
          android:fragment="com.shell.extras.fragments.PowerMenu" />
+
+    </PreferenceCategory>
 
     <PreferenceCategory
         android:key="battery_light_customization"
@@ -42,6 +49,7 @@
     <Preference
         android:key="charging_light"
         android:fragment="com.shell.extras.fragments.BatteryLightSettings"
+        android:icon="@drawable/ic_battery_light"
         android:title="@string/battery_light_settings" />
 
     </PreferenceCategory>

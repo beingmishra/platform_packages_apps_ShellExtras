@@ -16,6 +16,10 @@
 
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
 
+     <PreferenceCategory
+        android:key="lockscreen_stuff"
+        android:title="@string/lockscreen_stuff" >
+
      <com.shell.extras.preferences.SystemSettingSwitchPreference
         android:key="lockscreen_battery_info"
         android:title="@string/lockscreen_battery_info_title"
@@ -28,6 +32,8 @@
         android:title="@string/face_auto_unlock_title"
         android:summary="@string/face_auto_unlock_summary"
         android:defaultValue="false" />
+
+     </PreferenceCategory>
 
      <PreferenceCategory
          android:key="dtts_category"
@@ -48,6 +54,7 @@
             android:key="weather_lockscreen_unit"
             android:dialogTitle="@string/weather_unit"
             android:title="@string/weather_unit"
+            android:icon="@drawable/ic_weather"
             android:summary="%s"
             android:entries="@array/weather_unit_entries"
             android:entryValues="@array/weather_unit_values"

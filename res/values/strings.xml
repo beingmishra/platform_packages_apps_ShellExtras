@@ -69,7 +69,6 @@
     <string name="navigationbar_title">Navigation bar</string>
     <string name="navigationbar_summary">Configure smartbar, fling or pulse</string>
     <!-- Multitasking -->
-    <string name="headsup_title">Heads up</string>
     <string name="headsup_summary">Configure heads up options</string>
     <string name="omniswitch_title">Omniswitch</string>
     <string name="omniswitch_summary">Configure OmniSwitch options</string>
@@ -110,10 +109,12 @@
     <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
 
     <!-- Network Traffic -->
+    <string name="statusbar_ntraffic">Network Traffic</string>
     <string name="network_traffic_state_title">Show net activity in statusbar</string>
     <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
 
     <!-- Power Menu -->
+    <string name="pwr_title">Power button</string>
     <string name="powermenu_reboot_title">Restart</string>
     <string name="powermenu_advanced_restart_title">Advanced restart</string>
     <string name="powermenu_advanced_restart_summary">Enables the advanced restart menu for other restarting options</string>
@@ -150,6 +151,7 @@
     <string name="clock_date_string_edittext_summary">Enter string</string>
 
     <!-- Lockscreen battery info indicator  -->
+    <string name="lockscreen_stuff">Locksreen stuff</string>
     <string name="lockscreen_battery_info_title">Lockscreen charging info</string>
     <string name="lockscreen_battery_info_summary">Display negociated charger max current and voltage and battery temperature on lockscreen while charging</string>
 
@@ -251,11 +253,10 @@
     <string name="weather_unit_imperial" translatable="false">Fahrenheit</string>
 
     <!-- Heads up options -->
-    <string name="notification_heads" >Heads Up</string>
+    <string name="notification_heads">Heads up</string>
     <string name="less_boring_heads_up_title">Less boring heads up</string>
     <string name="less_boring_heads_up_summary">Show heads up only for dialer or messaging app</string>
 
     <!-- Toggle navigation bar -->
     <string name="navigation_bar_enabled_title">Enable navigation bar</string>
-
 </resources>

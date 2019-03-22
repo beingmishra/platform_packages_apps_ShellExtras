@@ -30,17 +30,8 @@
             android:fragment="com.shell.extras.fragments.StatusBarBattery" />
 
     <PreferenceCategory
-        android:key="notification_heads"
-        android:title="@string/notification_heads"
-
-        <Preference
-            <com.shell.extras.preferences.SystemSettingSwitchPreference
-            android:key="less_boring_heads_up"
-            android:title="@string/less_boring_heads_up_title"
-            android:summary="@string/less_boring_heads_up_summary"
-            android:defaultValue="false" />
-
-    </PreferenceCategory>
+        android:key="statusbar_ntraffic"
+        android:title="@string/statusbar_ntraffic" >
 
     <Preference
          android:key="network_traffic"
@@ -48,5 +39,20 @@
          android:icon="@drawable/ic_traffic"
          android:summary="@string/traffic_summary"
          android:fragment="com.shell.extras.fragments.NetworkTraffic" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="notification_heads"
+        android:title="@string/notification_heads" >
+
+            <com.shell.extras.preferences.SystemSettingSwitchPreference
+            android:key="less_boring_heads_up"
+            android:title="@string/less_boring_heads_up_title"
+            android:icon="@drawable/ic_headsup"
+            android:summary="@string/less_boring_heads_up_summary"
+            android:defaultValue="false" />
+
+    </PreferenceCategory>
 
 </PreferenceScreen>
