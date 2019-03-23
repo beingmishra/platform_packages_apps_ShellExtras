@@ -92,9 +92,9 @@ public class ShellExtras extends SettingsPreferenceFragment {
                     case R.id.navigation:
                         viewPager.setCurrentItem(3);
                         return true;
-                    case R.id.multitasking:
-                        viewPager.setCurrentItem(4);
-                        return true;
+                    //case R.id.multitasking:
+                        //viewPager.setCurrentItem(4);
+                        //return true;
                 }
                 return false;
             }
@@ -137,7 +137,7 @@ public class ShellExtras extends SettingsPreferenceFragment {
             frags[1] = new Lockscreen();
             frags[2] = new Statusbar();
             frags[3] = new Navigation();
-            frags[4] = new Multitasking();
+            //frags[4] = new Multitasking();
         }
 
         @Override
@@ -163,7 +163,8 @@ public class ShellExtras extends SettingsPreferenceFragment {
                 getString(R.string.bottom_nav_lockscreen_title),
                 getString(R.string.bottom_nav_statusbar_title),
                 getString(R.string.bottom_nav_navigation_title),
-                getString(R.string.bottom_nav_multitasking_title)};
+                //getString(R.string.bottom_nav_multitasking_title)
+                };
 
         return titleString;
     }
