@@ -24,7 +24,7 @@
     <string name="bottom_nav_lockscreen_title">Lockscreen</string>
     <string name="bottom_nav_statusbar_title">Statusbar</string>
     <string name="bottom_nav_navigation_title">Navigation</string>
-    <string name="bottom_nav_multitasking_title">Multitasking</string>
+    <string name="bottom_nav_misc_title">Miscellaneous</string>
 
     <!-- Footer warnings -->
     <string name="heads_up_warning_text">Heads up notifications are meant to be used for multitasking while using full screen apps and/or playing games. Just know that while you use heads up notifications, you will not be able to use the ticker feature.</string>

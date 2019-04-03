@@ -34,12 +34,12 @@ import com.android.settings.SettingsPreferenceFragment;
 
 import com.android.internal.logging.nano.MetricsProto;
 
-public class Multitasking extends SettingsPreferenceFragment implements Preference.OnPreferenceChangeListener {
+public class Misc extends SettingsPreferenceFragment implements Preference.OnPreferenceChangeListener {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        addPreferencesFromResource(R.xml.multitasking);
+        addPreferencesFromResource(R.xml.misc);
     }
 
     @Override

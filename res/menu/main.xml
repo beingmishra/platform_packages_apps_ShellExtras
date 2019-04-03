@@ -42,9 +42,9 @@
         app:showAsAction="ifRoom|withText"/>
 
     <item
-        android:id="@+id/multitasking"
-        android:icon="@drawable/bottomnav_multitasking"
-        android:title="@string/bottom_nav_multitasking_title"
+        android:id="@+id/misc"
+        android:icon="@drawable/bottomnav_misc"
+        android:title="@string/bottom_nav_misc_title"
         app:showAsAction="ifRoom|withText"/>
 
 </menu>
