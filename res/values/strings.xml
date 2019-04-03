@@ -259,4 +259,20 @@
 
     <!-- Toggle navigation bar -->
     <string name="navigation_bar_enabled_title">Enable navigation bar</string>
+
+    <!-- Statusbar ticker -->
+    <string name="statusbar_notifi_cat">Notifications Ticker</string>
+    <string name="status_bar_ticker_title">Ticker</string>
+    <string name="status_bar_show_ticker_title">Ticker</string>
+    <string name="status_bar_show_ticker_summary">Notification preview in status bar</string>
+    <string name="ticker_animation_mode_title">Ticker animation</string>
+    <string name="ticker_animation_mode_alpha_fade">Fade</string>
+    <string name="ticker_animation_mode_scroll">Scroll</string>
+    <string name="ticker_tick_duration_title">Ticker duration</string>
+
+    <!-- Statusbar Tuner -->
+    <string name="statusbar_items_title">Statusbar items</string>
+
+    <!-- Lockscreen icons -->
+    <string name="lockscreen_tuner_title">Lockscreen shortcuts</string>
 </resources>
