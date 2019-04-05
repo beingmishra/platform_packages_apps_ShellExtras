@@ -42,7 +42,7 @@ import com.android.settings.SettingsPreferenceFragment;
 
 import com.shell.extras.navigation.BottomNavigationViewCustom;
 import com.shell.extras.tabs.Lockscreen;
-import com.shell.extras.tabs.Multitasking;
+import com.shell.extras.tabs.Misc;
 import com.shell.extras.tabs.Navigation;
 import com.shell.extras.tabs.Statusbar;
 import com.shell.extras.tabs.System;

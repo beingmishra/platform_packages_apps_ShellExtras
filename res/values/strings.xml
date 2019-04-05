@@ -270,14 +270,15 @@
     <string name="ticker_animation_mode_scroll">Scroll</string>
     <string name="ticker_tick_duration_title">Ticker duration</string>
 
-    <!-- Statusbar Tuner -->
-    <string name="statusbar_items_title">Statusbar items</string>
+    <!-- Statusbar Items -->
+    <string name="statusbar_tuner_title">Statusbar Items</string>
 
     <!-- Lockscreen icons -->
     <string name="lockscreen_tuner_title">Lockscreen shortcuts</string>
 
     <!-- Navbar tuner -->
     <string name="navbar_tuner_title">Navbar buttons</string>
+    <string name="navbar_title">Navigation</string>
 
     <!-- Fingerprint unlock keystore -->  
     <string name="fp_unlock_keystore_title">Fingerprint unlock</string>  

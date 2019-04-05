@@ -19,7 +19,6 @@
 
     <Preference
         android:fragment="com.shell.extras.fragments.NavbarSettings"
-        android:icon="@drawable/ic_systemui_tuner_statusbaritems"
         android:key="navbar"
         android:title="@string/navbar_title" />
 
