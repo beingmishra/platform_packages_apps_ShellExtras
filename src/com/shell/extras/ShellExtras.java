@@ -39,6 +39,7 @@ import android.widget.Toast;
 import com.android.internal.logging.nano.MetricsProto;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
+import android.util.Log;
 
 import com.shell.extras.navigation.BottomNavigationViewCustom;
 import com.shell.extras.tabs.Lockscreen;
@@ -62,6 +63,10 @@ public class ShellExtras extends SettingsPreferenceFragment {
     public static Intent INTENT_ABOUT = new Intent(Intent.ACTION_MAIN)
             .setClassName(ABOUT_PACKAGE_NAME, ABOUT_PACKAGE_NAME + ".MainActivity");
 
+    public static final String UPDATER_PACKAGE_NAME = "com.pearlos.pearlot";
+    public static Intent INTENT_UPDATER = new Intent(Intent.ACTION_MAIN)
+            .setClassName(UPDATER_PACKAGE_NAME, UPDATER_PACKAGE_NAME + ".UpdatesActivity");
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
@@ -82,9 +87,11 @@ public class ShellExtras extends SettingsPreferenceFragment {
                 switch (item.getItemId()) {
                     case R.id.system:
                         viewPager.setCurrentItem(0);
+			Log.v("In onNavigationItemSelected","System fragment selected with verbose");
                         return true;
                     case R.id.lockscreen:
                         viewPager.setCurrentItem(1);
+                        Log.d("In onNavigationItemSelected","LockScreen fragment selected with debug");
                         return true;
                     case R.id.statusbar:
                         viewPager.setCurrentItem(2);
@@ -177,6 +184,7 @@ public class ShellExtras extends SettingsPreferenceFragment {
     @Override
     public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
         menu.add(0, 0, 0, R.string.dialog_team_title);
+        menu.add(0, 1, 0, R.string.dialog_updater);
     }
 
     @Override
@@ -185,13 +193,21 @@ public class ShellExtras extends SettingsPreferenceFragment {
             case 0:
                 if (INTENT_ABOUT != null) {
                     try {
-                        
                         startActivity(INTENT_ABOUT);
-                        
                     } catch (ActivityNotFoundException activityNotFound) {
                         mTapToast = Toast.makeText(getContext(),"Aww it seems like you dont have the app installed",Toast.LENGTH_LONG);
                         mTapToast.show();
-
+                    }
+                 }
+            case 1:
+                if (INTENT_UPDATER != null) {
+                    try {
+                        startActivity(INTENT_UPDATER);
+                        mTapToast = Toast.makeText(getContext(),"Welcome, to Pearl Updater",Toast.LENGTH_SHORT);
+                        mTapToast.show();
+                        Log.v("Intent_Updater","Sucess");
+                    } catch (ActivityNotFoundException activityNotFound) {
+                        Log.v("Intent_Updater","Failed");
                     }
                 }
                 return true;

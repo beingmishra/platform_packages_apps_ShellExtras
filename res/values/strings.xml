@@ -19,6 +19,8 @@
     <!-- The Team -->
     <string name="dialog_team_title">The Team</string>
 
+    <!-- Intent Upater -->
+    <string name="dialog_updater">Updater</string>
     <!-- Bottom navigation -->
     <string name="bottom_nav_system_title">System</string>
     <string name="bottom_nav_lockscreen_title">Lockscreen</string>
