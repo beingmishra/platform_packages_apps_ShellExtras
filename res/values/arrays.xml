@@ -188,5 +188,9 @@
         <item>1</item>
         <item>2</item>
     </string-array>
+
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Swipe to screenshot</string>
+    <string name="three_finger_gesture_summary">Swipe three fingers to take screenshot</string>
 </resources>
 
